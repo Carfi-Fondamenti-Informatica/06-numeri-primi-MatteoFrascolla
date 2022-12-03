@@ -5,7 +5,7 @@ int primo(int a, int b) {
     if (b!=1){
         if ((a % b ) != 0) {
             b--;
-            x = primo(a, b);
+            x=primo(a, b);
         } else {
             x=false;
         }
